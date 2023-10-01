@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'AR One Sans', sans-serif;
+}
+
+
+.navbar{
+    height: 70vh;
+    width: 100%;
+    background-image: url(https://www.strathconacpc.ca/media/home-bg.jpg)  ;
+    
+    background-size: cover;
+    background-position: center;
+    
+    
+
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
+}
+.logo{
+    color: white;
+    font-size: 28px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.text  {
+    position: absolute;
+    top: 200px;
+    left: 40%;
+    color: white;
+   
+}
+header{
+    position: relative;
+}
+.text h1{
+    font-size: 80px;
+    margin-top: 20px;
+
+}
+.text span{
+    font-size: 25px;
+}
+#content{
+    display: inline-block;
+    text-align: justify;
+    position: absolute;
+    left: 30%;
+    width: 41%;
+
+}
+#content h1{
+    font-size: 30px;
+}
+#content h1:hover{
+    color: blue;
+}
+#content span:hover{
+    color: blue;
+}
+#content span{
+    font-size: 25px;
+}
+#content h5{
+    font-size: 16px;
+    color: grey;
+}
+hr{
+    color: grey;
+}
+
